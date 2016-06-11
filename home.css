@@ -1,30 +1,32 @@
 @import url(https://fonts.googleapis.com/css?family=Indie+Flower|Dosis|Montserrat|Bitter:400,700);
 
-.nav{ 
-	height: 40px; 
-	back
-}
-.nav ul {  
-	padding-left: 20px;
-	font-family: 'Montserrat';
-	font-size: 17px;
-}
-.nav ul li {
-	list-style: none;
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #8a2626;
 }
 
-.nav ul li a {
-	text-decoration: none;
-	float: left;
-	display: block;
-	padding: 5px 10px;
-	color: black;
-	letter-spacing: 2px;
+li {
+    float: left;
 }
 
-.nav ul li a:hover {
-	text-decoration: underline;
-	color: #500000;
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+
+}
+
+a:hover:not(.active) {
+    background-color: #111;
+}
+
+.active {
+background-color:#4CAF50;
 }
 
 
@@ -48,22 +50,36 @@
 
 }
 .Facebook {
-	width: 345px;
+	width: 500px;
 	height: 505px;
 }
 
 
 .Clock {
 	font-size: 20px;
-	background-image: url(http://pre06.deviantart.net/2a9d/th/pre/f/2011/231/e/8/warp_background_by_jaguarry3-d4738ke.jpg);
+	background:#8a2626;
 	background-size: cover;
-	color: #fff;
-	height: 100px;
-	width: 150px;
-	border-radius: 10px;
+	color: #130404;
+	height: 40.5px;
+	width: 140px;
+	border-radius: 20px;
+	float: right;
 }
 
 .content img{
 	width: 600px;
 	height: 500px;
+}
+
+h3 {
+	display: inline-flex;
+    color: #ffffff;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #8a2626;
 }
