@@ -1,5 +1,6 @@
 @import url(https://fonts.googleapis.com/css?family=Indie+Flower|Dosis|Montserrat|Bitter:400,700);
 
+<<<<<<< HEAD
 ul {
     list-style-type: none;
     margin: 0;
@@ -27,6 +28,33 @@ a:hover:not(.active) {
 
 .active {
 background-color:#4CAF50;
+=======
+.nav{ 
+	height: 40px; 
+	back
+}
+.nav ul {  
+	padding-left: 20px;
+	font-family: 'Montserrat';
+	font-size: 17px;
+}
+.nav ul li {
+	list-style: none;
+}
+
+.nav ul li a {
+	text-decoration: none;
+	float: left;
+	display: block;
+	padding: 5px 10px;
+	color: black;
+	letter-spacing: 2px;
+}
+
+.nav ul li a:hover {
+	text-decoration: underline;
+	color: #500000;
+>>>>>>> origin/master
 }
 
 
@@ -50,13 +78,18 @@ background-color:#4CAF50;
 
 }
 .Facebook {
+<<<<<<< HEAD
 	width: 500px;
+=======
+	width: 345px;
+>>>>>>> origin/master
 	height: 505px;
 }
 
 
 .Clock {
 	font-size: 20px;
+<<<<<<< HEAD
 	background:#8a2626;
 	background-size: cover;
 	color: #130404;
@@ -64,12 +97,21 @@ background-color:#4CAF50;
 	width: 140px;
 	border-radius: 20px;
 	float: right;
+=======
+	background-image: url(http://pre06.deviantart.net/2a9d/th/pre/f/2011/231/e/8/warp_background_by_jaguarry3-d4738ke.jpg);
+	background-size: cover;
+	color: #fff;
+	height: 100px;
+	width: 150px;
+	border-radius: 10px;
+>>>>>>> origin/master
 }
 
 .content img{
 	width: 600px;
 	height: 500px;
 }
+<<<<<<< HEAD
 
 h3 {
 	display: inline-flex;
@@ -83,3 +125,5 @@ h3 {
     overflow: hidden;
     background-color: #8a2626;
 }
+=======
+>>>>>>> origin/master
