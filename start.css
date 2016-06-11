@@ -1,0 +1,55 @@
+@import url(https://fonts.googleapis.com/css?family=Indie+Flower|Dosis|Montserrat|Bitter:400,700);
+
+html body{
+	height: 100vh;
+	margin: 0;
+
+}
+
+header {
+	background-image: url(file:///C:/Users/OWNER/Pictures/MHS%20Web/1Home/Background/Hanby.JPG);
+	background-size: cover;
+	height: 100vh;
+	width: 100%;
+	display: table;  	
+}
+
+header h1 {
+	margin: 0;
+	font-family: 'Bitter', serif;	
+	color: #500000;
+	font-size: 55px;
+}
+
+header h3 {
+	margin: 0;
+	font-family: 'Indie Flower', cursive;
+	color: white;	
+	font-size: 25px;
+}
+
+header div {
+	text-align: center;
+	display: block;
+	display: table-cell;
+	vertical-align: middle;
+}
+
+header button {
+    background-color: Transparent;
+    border-style: solid;
+    width: 150px;
+    height: 30px;
+    text-align: center;
+    border-color: white;
+    border-radius: 10px;
+    font-family: 'Indie Flower';
+    font-size: 20px;
+    font-weight: bold;
+    color: #fff;
+}
+
+header button:hover {
+	opacity: 0.6;
+	text-decoration: underline;
+}
